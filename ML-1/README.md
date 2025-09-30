@@ -145,6 +145,5 @@ The enhanced version includes:
 
 ---
 
-### 💡 **Perfect for portfolios!** This project demonstrates fundamental ML skills essential for data science roles.
 
 **Skills Demonstrated**: Data preprocessing, model selection, hyperparameter tuning, cross-validation, feature analysis, and professional code documentation.
