@@ -1,0 +1,240 @@
+# ==========================================
+# KAGGLE ML PROJECTS - GITIGNORE
+# Only upload: Code (.py) and Data (.csv)
+# ==========================================
+
+# ==========================================
+# PYTHON CACHE & COMPILED FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ml_env/
+.venv/
+Scripts/
+Lib/
+Include/
+pip-selfcheck.json
+
+# ==========================================
+# JUPYTER NOTEBOOK
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints
+
+# Profile directories
+profile_default/
+ipython_config.py
+
+# ==========================================
+# IDE / EDITOR FILES
+# ==========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==========================================
+# PROJECT SPECIFIC - TEMPORARY FILES
+# ==========================================
+
+# Logs
+*.log
+*.log.*
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+cache/
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*_backup/
+*_old/
+*.orig
+
+# ==========================================
+# MODEL FILES (Often too large)
+# ==========================================
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+*.pb
+saved_models/
+checkpoints/
+models/
+
+# ==========================================
+# DATA FILES (Uncomment if datasets too large)
+# ==========================================
+# Uncomment lines below if you DON'T want to upload datasets
+# *.csv
+# !train.csv      # Exception: Keep train.csv
+# !test.csv       # Exception: Keep test.csv
+# !submission*.csv # Exception: Keep submission files
+
+# Large data files
+*.parquet
+*.feather
+*.hdf5
+*.h5
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==========================================
+# SECRETS / CREDENTIALS
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+secrets.txt
+credentials.json
+config_local.py
+*.pem
+*.key
+api_keys.txt
+
+# ==========================================
+# TESTING
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.cover
+*.py,cover
+
+# ==========================================
+# DOCUMENTATION BUILD
+# ==========================================
+docs/_build/
+site/
+_build/
+dist/
+build/
+
+# ==========================================
+# DISTRIBUTION / PACKAGING
+# ==========================================
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+
+# ==========================================
+# JUPYTER NOTEBOOK OUTPUTS
+# ==========================================
+# Uncomment if you don't want to upload notebooks
+# *.ipynb
+
+# ==========================================
+# CUSTOM IGNORES (Add your own below)
+# ==========================================
+
+# Personal notes
+NOTES.txt
+TODO.txt
+notes/
+scratch/
+
+# Experiments
+experiments/
+test_scripts/
+playground/
+
+# Old versions
+v1/
+v2/
+old/
+archive/
