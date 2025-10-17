@@ -71,8 +71,8 @@ This repository showcases my machine learning learning journey through Kaggle's 
 │ Simple features         │ Mixed numerical + categorical     │
 │ Manual preprocessing    │ Automated pipelines               │
 │ Basic validation        │ Cross-validation                  │
-│ Random Forest           │ XGBoost (state-of-the-art)       │
-│ MAE: $22,000           │ MAE: $15,200 (20% better!)       │
+│ Random Forest           │ XGBoost (state-of-the-art)        │
+│ MAE: $22,000            │ MAE: $15,200 (20% better!)        │
 └─────────────────────────┴───────────────────────────────────┘
 ```
 
